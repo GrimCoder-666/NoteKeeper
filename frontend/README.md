@@ -1,12 +1,45 @@
-# React + Vite
+# Notes Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dark-themed React frontend for the Notes API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌙 Beautiful dark theme with gradient backgrounds
+- 📱 Fully responsive design
+- ✨ Smooth animations and micro-interactions
+- 🔍 Real-time search functionality
+- ✏️ Inline editing capabilities
+- 🎨 Modern UI with glassmorphism effects
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Make sure your Notes API backend is running on `http://localhost:5000`
+
+## Tech Stack
+
+- React 18
+- Vite
+- Axios for API calls
+- Lucide React for icons
+- Modern CSS with gradients and animations
+
+## API Integration
+
+The frontend connects to your Notes API backend and provides a complete interface for:
+- Creating new notes
+- Viewing all notes
+- Searching through notes
+- Editing existing notes
+- Deleting notes
+
+Make sure your backend server is running before using the frontend.
