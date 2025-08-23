@@ -49,6 +49,7 @@ A simple **Node.js + Express + MongoDB** REST API to create, read, update, and d
    npm start
 
 ## 📂 Project Structure
+```bash
 notes-api/
 ├── routes/
 │   └── notes.js
@@ -59,6 +60,7 @@ notes-api/
 ├── package.json
 ├── .env
 └── README.md
+```
 
 ## 📄 API Endpoints
 
